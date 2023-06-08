@@ -1,0 +1,20 @@
+{
+  "name": "sport-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nolan Berryhill",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "moment": ">=2.27.0 <2.29.1",
+    "morgan": "^1.10.0",
+    "pino": "^6.13.4"
+  }
+}
