@@ -1,12 +1,6 @@
 'use strict';
 
-class Team {
-    constructor(name, mascot, playerCount) {
-        this.name = name;
-        this.mascot = mascot;
-        this.playerCount = playerCount;
-    }
-};
+const Team = require('./team.js');
 
 const teams = [
     new Team('Alabama', 'Crimson Tide', '54'),
@@ -33,6 +27,5 @@ module.exports = {
     getTeam,
     displayTeam
 };
-
 
 

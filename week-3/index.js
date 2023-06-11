@@ -11,11 +11,19 @@ allTeams.forEach(team => {
 });
 
 //Displaying single team objects
-const team1 = getTeam('Team 1');
-const team2 = getTeam('Team 3');
+const team1 = getTeam('Alabama');
+const team2 = getTeam('Georgia');
 
 console.log('Team 1:');
-console.log(displayTeam(team1));
+if (team1) {
+    console.log(displayTeam(team1));
+} else {
+    console.log('Team not found.');
+}
 console.log('-----------------------');
-console.log('Team 3');
-console.log(displayTeam(team2));
+console.log('Team 3:');
+if (team2) {
+    console.log(displayTeam(team2));
+} else {
+    console.log('Team not found.');
+}
